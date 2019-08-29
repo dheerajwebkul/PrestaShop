@@ -1010,7 +1010,7 @@ class ToolsCore
     {
         $format = Context::getContext()->language->date_format_lite;
         $search = array('d', 'm', 'Y');
-        $replace = array('DD', 'MM', 'YYYY');
+        $replace = array('dd', 'MM', 'YYYY');
         $format = str_replace($search, $replace, $format);
 
         return $format;
